@@ -1,0 +1,107 @@
+
+public class practice1{
+
+    public static void main(String args[]){
+
+       //First program to print hello world;
+       
+       System.out.println("Hello guys");
+       
+       
+       //Here to pratice Primitive data types;
+       //Usint integer data type to add numbers;
+       
+    int num1,num2;
+    
+    num1 = 10;
+    num2 = 50;
+    System.out.println("num1:" + num1);
+    System.out.println("num2:" + num2);
+    System.out.println(num1 + num2);
+    
+       
+       // using float type of add decimal values;
+       
+       float dec1 = 15.69F;
+       float dec2 = 19.96F;
+       
+        System.out.println("dec1:" + dec1);
+    System.out.println("dec2:" + dec2);
+    System.out.println(dec1 + dec2);
+    
+    
+    // Using byte type  to add number;
+    
+     byte bt1 = 112;
+       byte bt2 = 15;
+       
+        System.out.println("bt1:" + bt1);
+    System.out.println("bt2:" + bt2);
+    System.out.println(bt1 + bt2);
+       
+        short srt1 = 256;
+       short srt2 = 456;
+       
+        System.out.println("srt1:" + srt1);
+    System.out.println("srt2:" + srt2);
+    System.out.println(srt1 + srt2);
+       
+       //Using double date type to add numbers;
+        double db1 = 19.696F;
+       double db2 = 189.96F;
+       
+        System.out.println("db1:" + db1);
+    System.out.println("db2:" + db2);
+    System.out.println(db1 + db2);
+    
+    //using boolean to find out logical values
+     boolean bl1 = 10==5*2;
+       boolean bl2 = 30-20==8+2;
+       
+        System.out.println("bl1:" + bl1);
+    System.out.println("bl2:" + bl2);
+    System.out.println(bl1 && bl2);
+    
+    //using long type to add two numbers;
+     long lng1 = 123456789L;
+       long lng2 = 987654321L;
+       
+        System.out.println("lng1:" + lng1);
+    System.out.println("lng2:" + lng2);
+    System.out.println(lng1 + lng2);
+    // using string type to concat two string;
+   String str1 = "Hi";
+       String str2 = "Java";
+       
+        System.out.println("str1:" + str1);
+    System.out.println("str2:" + str2);
+    System.out.println(str1 + str2);
+    
+    // using char type to concat two string;
+   char ch1 = 'H';
+       char ch2 = 'i';
+       
+        System.out.println("ch1:" + ch1);
+    System.out.println("ch2:" + ch2);
+    System.out.print(ch1);
+    System.out.print(ch2);
+    
+    
+    // Non-primitive data types
+    
+    // integer array;
+    int[] array1 = {0,9,8,7,6,5,4,3,2,1,0};
+    // String array;
+    String[]array2 = { "Hi","Hello","Welcome","To","Java","You","Completed","Your","First","Program","Congrats"};
+    // to print using while loop
+    int count = 0;
+    while(count<11){
+                       System.out.println("\n"+ "\t");
+        System.out.println(array1[count]);
+                System.out.println(array2[count]);
+        count++;
+        
+    }
+    
+    }
+}
