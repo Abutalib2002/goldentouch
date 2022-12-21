@@ -1,0 +1,8 @@
+package Labcard;
+
+public class CMDLINE {
+public static void main(String[] args) {
+	
+	System.out.println(args);
+}
+}

@@ -1,4 +1,4 @@
-package EarnLearn;
+package Classpractice;
 
 public class Classdemo4 {
 private static Object shoeFactory;
