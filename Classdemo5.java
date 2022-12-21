@@ -1,4 +1,4 @@
-package Classpractice;
+package EarnLearn;
 import java.util.Scanner;
 public class Classdemo5 {
 public static void main(String[] args) {
@@ -11,8 +11,7 @@ public static void main(String[] args) {
 }
 }
 interface Programmer{
-	public void programming();
-}
+	public void programming();}
 interface Hacker{
 	public void hacking();
 }

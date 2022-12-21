@@ -1,24 +1,24 @@
-package Classpractice;
+package EarnLearn;
 
 public class ClassDemo2 {
 public static void main(String[] args) {
-BreakFast nasta = new BreakFast();
-nasta.eat();
-}}
-
+	BreakFast bf = new BreakFast();
+	bf.Eat();
+}
+}
 class BreakFast{
-	String Sugar;
+	String sugar;
+	
 	public BreakFast() {
-	System.out.println();
-	
+		
 	}
-	
-	public void eat() {
-		if(this.Sugar != null) {
-			System.out.println("food is Taste");
+	public void Eat() {
+		if(sugar != null) {
+			System.out.println("Food is yummy ............");
 		}
 		else {
-			System.out.println("food is worst");
+			System.out.println("Food is like dump...............");
 		}
+		
 	}
 }
